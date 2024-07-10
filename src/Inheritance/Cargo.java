@@ -4,9 +4,6 @@ public class Cargo {
     String name;
     float weight;
 
-    public Cargo() {
-    }
-
     public Cargo(String name, float weight) {
         this.name = name;
         this.weight = weight;

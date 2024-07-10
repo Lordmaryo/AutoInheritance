@@ -1,8 +1,8 @@
 package Inheritance;
 
 public class Keke extends AutoMobile {
-    public Keke(String chasisNo, int wheels, int seats, String brand, boolean roof) {
-        super(chasisNo, wheels, seats, brand, roof);
+    public Keke(String chassisNo, int wheels, int seats, String brand, boolean roof) {
+        super(chassisNo, wheels, seats, brand, roof);
     }
 
     public void reverse(){

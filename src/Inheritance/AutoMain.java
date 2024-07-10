@@ -21,7 +21,7 @@ public class AutoMain {
         System.out.println();
 
         keke.carryCargo(new Cargo("Passenger", 250f));
-        okada.haveRoof();
+        keke.haveRoof();
         keke.move();
         keke.reverse();
         keke.stop();

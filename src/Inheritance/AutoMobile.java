@@ -1,21 +1,21 @@
 package Inheritance;
 
 public abstract class AutoMobile {
-    private final String chasisNo;
+    private final String chassisNo;
     private int wheels, seats;
     private String brand;
     private boolean roof;
 
-    public AutoMobile(String chasisNo, int wheels, int seats, String brand, boolean roof) {
+    public AutoMobile(String chassisNo, int wheels, int seats, String brand, boolean roof) {
         this.wheels = wheels;
         this.seats = seats;
         this.brand = brand;
-        this.chasisNo = chasisNo;
+        this.chassisNo = chassisNo;
         this.roof = roof;
     }
 
-    public String getChasisNo() {
-        return this.chasisNo;
+    public String getChassisNo() {
+        return this.chassisNo;
     }
 
     public int getWheels() {
